@@ -417,7 +417,7 @@ struct _GtkSourceContextEnginePrivate
 	GtkTextBuffer *buffer;
 	GtkSourceStyleScheme *style_scheme;
 
-	/* All tags indexed by style name: values are GSList's of tags, ref()'ed. */
+	/* Все теги, индексированные имененм стиля: значениями являются теги GSList's, ref()'ed. */
 	GHashTable *tags;
 
 	/* Number of all syntax tags created by the engine, needed to set
