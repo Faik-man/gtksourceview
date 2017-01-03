@@ -420,8 +420,8 @@ struct _GtkSourceContextEnginePrivate
 	/* Все теги, индексированные именем стиля: значениями являются теги GSList's, ref()'ed. */
 	GHashTable *tags;
 
-	/* Number of all syntax tags created by the engine, needed to set
-	 * correct tag priorities.
+	/* Количество всех тегов синтаксиса, созданных движком, необходимых для установки
+	 * правильных приоритетов тегов.
 	 */
 	guint n_tags;
 
