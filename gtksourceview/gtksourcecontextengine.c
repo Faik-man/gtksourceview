@@ -2221,7 +2221,7 @@ update_tree (GtkSourceContextEngine *ce)
  * gtk_source_context_engine_update_highlight:
  * @ce: a #GtkSourceContextEngine.
  * @start: start of area to update.
- * @end: start of area to update.
+ * @end: end of area to update.
  * @synchronous: whether it should block until everything
  * is analyzed/highlighted.
  *
